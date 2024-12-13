@@ -1,0 +1,43 @@
+@import './base.css';
+
+#app {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+header {
+  color: rgb(13, 88, 5);
+  font-size: 40px;
+  line-height: 1.5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+  }
+}
+
+.componente {
+  text-align: center;
+  background-color: #050d04;
+  border-radius: 15px;
+  margin: 30px;
+  clear: both;
+}
